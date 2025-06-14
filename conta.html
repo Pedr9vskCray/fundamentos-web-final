@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles/conta-stylesheet.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimercado 24h</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="index.html">
+            <img src="assets/images/logo_minimercado.png" id="logo_minimercado">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Menu<span class="sr-only">(Página atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="produtos.html">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicos.html">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="conta.html">Conta</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <center>
+        <p class="display-2">Faça seu cadastro para começar a comprar.</p>
+    </center>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3">
+                
+            </div>
+            <div class="col-sm-6">
+                <form action="https://formsubmit.co/pedrox2102@gmail.com" method="post" id="form_cadastro" onsubmit="criar_cadastro()">
+                    <fieldset>
+                        <legend id="start_legend">- Por favor, cadastre suas informações</legend>
+                        <b><label class="label_class">Nome:</label></b>
+                        <input type="text" name="nome" class="input_text" id="nome_input"/>
+                    </fieldset>
+                    <fieldset>
+                        <b><label class="label_class">Endereço:</label></b>
+                        <input type="text" name="endereço" class="input_text" id="endereco_input"/>
+                    </fieldset>
+                    <fieldset>
+                        <b><label class="label_class">Sexo:</label></b>
+                        <label class="label_class">Masculino</label>
+                        <input type="radio" name="sexo" value="masculino" checked/>
+                        <label class="label_class bottom_class">Feminino</label>
+                        <input type="radio" name="sexo" value="feminino"/>
+                    </fieldset>
+                    <fieldset>
+                        <b><label class="label_class">CPF:</label></b>
+                        <input type="tel" class="input_text" name="cpf" placeholder="XXXXXXXXXXX" pattern="[0-9]{11}" id="cpf_input" required/>
+                    </fieldset>
+                    <fieldset>
+                        <b><label class="label_class">Telefone:</label></b>
+                        <input type="tel" class="input_text" name="telefone" placeholder="ddXXXXXXXXX" pattern="[0-9]{11}" id="telefone_input" required/>
+                    </fieldset>
+                    <fieldset>
+                        <b><label class="label_class">Email:</label></b>
+                        <input type="email" class="input_text" name="email" placeholder="example@email.com" id="email_input" required/>
+                    </fieldset>
+                    <fieldset>
+                        <b><label class="label_class">Nascimento:</label></b>
+                        <input type="date" name="data_nascimento" id="nascimento_input"/>
+                    </fieldset>
+                    <fieldset>
+                        <input type="submit" value="Criar Conta" class="btn btn-primary btn_servico" id="criar"/>
+                        <input type="button" value="Cancelar" class="btn btn-primary btn_servico" id="cancelar" onclick="clear_form()"/>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="col-sm-3">
+                <img src="assets/images/logo_minimercado.png" id="logo_mercado">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function criar_cadastro(){
+            alert("Obrigado por se cadastrar no MiniMercado 24h");
+        }
+
+        function clear_form(){
+            document.getElementById("form_cadastro").reset();
+        }
+    </script>
+
+    <footer>
+        <address>
+            <i>Author: Pedro José dos Prazeres Lobão</i><br>
+            <i>Email:
+                <a href="mailto:lobaopedrojose@gmail.com">lobaopedrojose@gmail.com</a>
+            </i>
+            <br>    
+            <i>Telefone: 
+                <b>(53) 9 9157-2889</b>
+            </i>
+            <br>
+        </address>
+    </footer>
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

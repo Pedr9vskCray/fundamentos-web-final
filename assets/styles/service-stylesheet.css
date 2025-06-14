@@ -1,0 +1,67 @@
+#logo_minimercado {
+    width: 120px;
+    height: 58px;
+}
+
+.navbar-light {
+    background-color: white !important;
+    border: none !important;
+    border-width:0!important;
+}
+
+#entrega {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+#retirada {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+#form_retirada {
+    margin-top: -2%;
+    margin-left: 3%;
+}
+
+.label_class {
+    margin-left: 1%;
+}
+
+.input_text {
+    width: 18%;
+}
+
+.btn_servico {
+    margin-top: 0.5%;
+    width: 10%;
+}
+
+#pedido {
+    margin-left: 2%;
+    background-color: #93C560;
+    border: 2px solid #73AD21;
+}
+
+#cancelar {
+    background-color: #FF474C;
+    border: 2px solid #E23F44;
+}
+
+
+body {
+    background-color: white;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    padding: 3px;
+    background-color: #D3D3D3;
+    color: black;
+}

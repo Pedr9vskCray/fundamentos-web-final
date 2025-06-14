@@ -1,0 +1,58 @@
+#logo_minimercado {
+    width: 120px;
+    height: 58px;
+}
+
+.navbar-light {
+    background-color: white !important;
+    border: none !important;
+    border-width:0!important;
+}
+
+.prod_imagem {
+    float: left;
+    width: 65%;
+    height: 100%;
+    position: relative;
+}
+
+#text_coca {
+    margin-left: 50%;
+    margin-right: 20%;
+    position: absolute;
+}
+
+#button_coca {
+    width: 35%;
+    margin-top: 50%;
+    margin-left: -11%;
+    position: absolute;
+}
+
+#text_doritos {
+    margin-left: 55%;
+    margin-right: 20%;
+    position: absolute;
+}
+
+#button_doritos {
+    width: 35%;
+    margin-top: 50%;
+    margin-left: -7%;
+    position: absolute;
+}
+
+body {
+    background-color: white;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    padding: 3px;
+    background-color: #D3D3D3;
+    color: black;
+}

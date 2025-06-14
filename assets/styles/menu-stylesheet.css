@@ -1,0 +1,44 @@
+#logo_minimercado {
+    width: 120px;
+    height: 58px;
+}
+
+#banner_lateral {
+    width: 127%; 
+    height: 100%;
+}
+
+#banner_lateral2 {
+    margin-left: -19%;
+    margin-top: 5.5%;
+    width: 117%; 
+    height: 97.35%;
+}
+
+#banner_alternando {
+    margin-left: 4.5%;
+    margin-top: 1.505%;
+    width: 92%;
+    height: 97%;
+}
+
+.navbar-light {
+    background-color: white !important;
+    border: none !important;
+    border-width:0!important;
+}
+
+body {
+    background-color: white;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    padding: 3px;
+    background-color: #D3D3D3;
+    color: black;
+}
