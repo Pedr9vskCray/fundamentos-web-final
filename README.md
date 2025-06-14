@@ -1,4 +1,4 @@
-Projeto final da Fase 2 do meu curso de Fundamentos de Sistemas Web na PUCRS.
+Projeto Final da Fase 2 do meu curso de Fundamentos de Sistemas Web na PUCRS.
 
 O website é uma simulação de um mercado online que possui sistema de compras, delivery e cadastro.
 
